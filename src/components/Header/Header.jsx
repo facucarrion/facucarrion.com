@@ -1,3 +1,7 @@
+import { AiFillHome } from 'react-icons/ai'
+import { BsFillGearFill, BsPersonCircle } from 'react-icons/bs'
+import { IoMail } from 'react-icons/io5'
+
 const Header = () => {
   return (
     <header className="header">
@@ -16,6 +20,10 @@ const Header = () => {
               href="#"
               className="header__nav__item__link"
             >
+              <AiFillHome
+                className="header__nav__item__link__icon"
+                size={'16px'}
+              />
               Home
             </a>
             <span className="header__nav__item__decoration"></span>
@@ -25,7 +33,11 @@ const Header = () => {
               href="#"
               className="header__nav__item__link"
             >
-              Home
+              <BsPersonCircle
+                className="header__nav__item__link__icon"
+                size={'16px'}
+              />
+              About Me
             </a>
             <span className="header__nav__item__decoration"></span>
           </li>
@@ -34,7 +46,11 @@ const Header = () => {
               href="#"
               className="header__nav__item__link"
             >
-              Home
+              <BsFillGearFill
+                className="header__nav__item__icon"
+                size={'16px'}
+              />
+              My Works
             </a>
             <span className="header__nav__item__decoration"></span>
           </li>
@@ -43,7 +59,11 @@ const Header = () => {
               href="#"
               className="header__nav__item__link"
             >
-              Home
+              <IoMail
+                className="header__nav__item__icon"
+                size={'16px'}
+              />
+              Contact Me
             </a>
             <span className="header__nav__item__decoration"></span>
           </li>

@@ -1,0 +1,8 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "trailingComma": "none",
+  "printWidth": 120,
+  "singleAttributePerLine": true
+}

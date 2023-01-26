@@ -1,0 +1,14 @@
+.header__title {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    height: 5rem;
+  }
+  &__name {
+    color: #efefef;
+    margin-block: 0;
+    line-height: 1em;
+    font-weight: 600;
+  }
+}

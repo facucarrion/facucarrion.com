@@ -1,13 +1,16 @@
+@use '../../sass/variables' as var;
+
 .header__nav__item {
-  color: #efe;
+  color: var.$dark-text-color;
   cursor: pointer;
   display: flex;
   position: relative;
   overflow: hidden;
+  height: 1.875rem;
 
   &__link {
     text-decoration: none;
-    color: #efe;
+    color: var.$dark-text-color;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -15,8 +18,7 @@
     line-height: 1em;
 
     &__icon {
-      color: #efe;
-      margin-top: 1px;
+      color: var.$dark-text-color;
     }
   }
 
@@ -29,7 +31,7 @@
     width: 100%;
     height: 1px;
     bottom: 0;
-    background: #efe;
+    background: var.$dark-text-color;
     transform: translateX(-100%);
     transition: transform 0.5s ease;
   }

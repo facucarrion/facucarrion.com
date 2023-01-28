@@ -23,7 +23,7 @@ const Nav = () => {
               size={'20px'}
             />
           }
-          text={'Home'}
+          text={'About Me'}
         />
         <NavItem
           icon={
@@ -32,7 +32,7 @@ const Nav = () => {
               size={'20px'}
             />
           }
-          text={'Home'}
+          text={'My Work'}
         />
         <NavItem
           icon={
@@ -41,7 +41,7 @@ const Nav = () => {
               size={'20px'}
             />
           }
-          text={'Home'}
+          text={'Contact'}
         />
       </ul>
     </nav>

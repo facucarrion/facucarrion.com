@@ -8,39 +8,19 @@ const Nav = () => {
     <nav className="header__nav">
       <ul className="header__nav__menu">
         <NavItem
-          icon={
-            <AiFillHome
-              className="header__nav__item__link__icon"
-              size={'20px'}
-            />
-          }
+          icon={<AiFillHome className="header__nav__item__link__icon" />}
           text={'Home'}
         />
         <NavItem
-          icon={
-            <BsPersonCircle
-              className="header__nav__item__link__icon"
-              size={'20px'}
-            />
-          }
+          icon={<BsPersonCircle className="header__nav__item__link__icon" />}
           text={'About Me'}
         />
         <NavItem
-          icon={
-            <BsFillGearFill
-              className="header__nav__item__link__icon"
-              size={'20px'}
-            />
-          }
+          icon={<BsFillGearFill className="header__nav__item__link__icon" />}
           text={'My Work'}
         />
         <NavItem
-          icon={
-            <IoMail
-              className="header__nav__item__link__icon"
-              size={'20px'}
-            />
-          }
+          icon={<IoMail className="header__nav__item__link__icon" />}
           text={'Contact'}
         />
       </ul>

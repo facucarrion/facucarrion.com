@@ -16,9 +16,12 @@
     align-items: center;
     gap: 4px;
     line-height: 1em;
+    font-size: 1.25rem;
 
     &__icon {
       color: var.$dark-text-color;
+      height: 1.25rem;
+      width: 1.25rem;
     }
   }
 

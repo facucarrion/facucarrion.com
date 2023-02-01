@@ -1,11 +1,13 @@
 .home {
-  &__img {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    border: 1px solid #efe;
-    display: inline-block;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url(/img/me.jpg);
-    background-size: cover;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

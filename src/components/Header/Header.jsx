@@ -1,10 +1,13 @@
-import { Title } from '../Title/Title'
 import { Nav } from '../Nav/Nav'
 
 const Header = () => {
   return (
     <header className="header">
-      <Title />
+      <img
+        className="header__img"
+        src={'/img/white-logo-transparent.png'}
+        alt="Facucarrion Dev"
+      />
       <Nav />
     </header>
   )

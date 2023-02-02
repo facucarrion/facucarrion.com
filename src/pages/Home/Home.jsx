@@ -14,7 +14,7 @@ const Home = () => {
       </div>
 
       <img
-        src="/img/code-illustration.svg"
+        src={'/img/code-illustration.svg'}
         className="home__img"
       />
     </section>

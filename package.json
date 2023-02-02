@@ -29,5 +29,9 @@
     "prettier": "^2.8.1",
     "sass": "^1.57.1",
     "vite": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "link": "https://github.com/facucarrion/facucarrion.dev"
   }
 }

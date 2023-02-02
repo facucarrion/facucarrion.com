@@ -2,7 +2,10 @@ import { SocialMedia } from '../../components/SocialMedia/SocialMedia'
 
 const Home = () => {
   return (
-    <section className="home">
+    <section
+      className="home"
+      id="home"
+    >
       <div className="home__container">
         <h1 className="home__title">
           Hi👋! I&#39;m <span className="home__title--decorated">Facundo Carrion</span>Frontend Developer

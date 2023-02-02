@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header">
       <a
-        href="#"
+        href="#top"
         className="header__wrapper"
       >
         <img

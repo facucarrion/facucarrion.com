@@ -1,8 +1,8 @@
-const NavItem = ({ icon, text }) => {
+const NavItem = ({ icon, text, section }) => {
   return (
     <li className="header__nav__item">
       <a
-        href="#"
+        href={`#${section}`}
         className="header__nav__item__link"
       >
         {icon}

@@ -1,0 +1,43 @@
+@use '../../sass/variables' as var;
+
+.aboutme {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__imgcont {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__img {
+    border: 1px solid var.$dark-text-color;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
+
+  &__container {
+    width: 56%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  &__text {
+    color: var.$dark-text-color;
+    font-size: 1.35rem;
+    font-weight: 300;
+
+    &--decorated {
+      color: var.$gold-color;
+      font-weight: 400;
+    }
+  }
+}

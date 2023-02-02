@@ -10,10 +10,12 @@ const Nav = () => {
         <NavItem
           icon={<AiFillHome className="header__nav__item__link__icon" />}
           text={'Home'}
+          section={'home'}
         />
         <NavItem
           icon={<BsPersonCircle className="header__nav__item__link__icon" />}
           text={'About Me'}
+          section={'about'}
         />
         <NavItem
           icon={<BsFillGearFill className="header__nav__item__link__icon" />}

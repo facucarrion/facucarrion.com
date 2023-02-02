@@ -3,11 +3,28 @@
 .header {
   display: flex;
   width: 100%;
+  max-width: 1300px;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
 
   &__img {
     height: 6rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 2rem;
+    color: var.$dark-text-color;
+    font-weight: 600;
+
+    &--decorated {
+      color: var.$gold-color;
+    }
   }
 }

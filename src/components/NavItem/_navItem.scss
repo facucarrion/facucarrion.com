@@ -14,28 +14,24 @@
     padding: 5px 2px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.5rem;
     line-height: 1em;
     font-size: 1.4rem;
+    transition: color 0.2s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+    &:hover {
+      color: var.$gold-color;
+    }
 
     &__icon {
       color: var.$gold-color;
       height: 1.25rem;
       width: 1.25rem;
+      transition: transform 0.2s cubic-bezier(0.46, 0.03, 0.52, 0.96);
     }
   }
 
-  &__link:hover ~ &__decoration {
-    transform: translateX(0);
-  }
-
-  &__decoration {
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background: #bbc2cc;
-    transform: translateX(-100%);
-    transition: transform 0.5s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+  &__link:hover &__link__icon {
+    transform: scale(1.2) rotate(10deg);
   }
 }

@@ -8,7 +8,6 @@ const NavItem = ({ icon, text }) => {
         {icon}
         {text}
       </a>
-      <span className="header__nav__item__decoration"></span>
     </li>
   )
 }

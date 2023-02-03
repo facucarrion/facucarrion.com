@@ -18,6 +18,7 @@
 
   &__title {
     width: 100%;
+    margin-bottom: 2rem;
     font-size: 3rem;
     color: var.$gold-color;
   }
@@ -31,9 +32,9 @@
   }
 
   &__img {
+    border-radius: 50%;
     width: 500px;
     height: 500px;
-    border-radius: 50%;
   }
 
   &__textcont {
@@ -49,7 +50,7 @@
   &__text {
     color: var.$dark-text-color;
     font-size: 1.35rem;
-    font-weight: 300;
+    font-weight: 400;
 
     &--decorated {
       color: var.$gold-color;

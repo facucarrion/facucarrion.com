@@ -1,5 +1,3 @@
-const Footer = () => {
-  return <footer className="footer"></footer>
-}
+const Footer = () => <footer className="footer"></footer>
 
 export { Footer }

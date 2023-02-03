@@ -32,7 +32,7 @@ const AboutMe = () => {
         </div>
         <picture className="aboutme__imgcont">
           <img
-            src="/img/me.jpg"
+            src="/img/white-logo-transparent.png"
             alt=""
             className="aboutme__img"
           />

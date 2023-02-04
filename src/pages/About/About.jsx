@@ -1,4 +1,4 @@
-const AboutMe = () => (
+const About = () => (
   <section
     className="aboutme"
     id="about"
@@ -40,4 +40,4 @@ const AboutMe = () => (
   </section>
 )
 
-export { AboutMe }
+export { About }

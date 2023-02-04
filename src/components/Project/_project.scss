@@ -1,0 +1,79 @@
+@use '../../sass/variables' as var;
+
+.project {
+  border-radius: 10px;
+  border: 1px solid var.$dark-text-color;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &:hover > .project__filter {
+    transform: translateY(0);
+  }
+
+  &__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40.5%, -50%);
+    height: 100%;
+    z-index: -1;
+  }
+
+  &__filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.8);
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem 2rem;
+  }
+
+  &__name {
+    font-size: 2rem;
+    color: #efe;
+  }
+
+  &__description {
+    font-size: 1.5rem;
+    color: #efe;
+    text-align: center;
+    width: 80%;
+  }
+
+  &__techlist {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &__tech {
+    list-style-type: none;
+  }
+
+  &__icons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+
+    &--link {
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

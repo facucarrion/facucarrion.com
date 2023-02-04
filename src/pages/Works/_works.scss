@@ -1,0 +1,27 @@
+@use '../../sass/variables' as var;
+
+.works {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+
+  &__title {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var.$gold-color;
+    margin-bottom: 2rem;
+  }
+
+  &__grid {
+    display: grid;
+    aspect-ratio: 2/1.25;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}

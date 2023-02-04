@@ -24,6 +24,7 @@ const Nav = () => (
       <NavItem
         icon={<BsFillGearFill className="header__nav__item__link__icon" />}
         text={'My Work'}
+        section={'works'}
       />
     </ul>
   </nav>

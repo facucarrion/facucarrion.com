@@ -1,16 +1,18 @@
 import { Header } from './components/Header/Header'
 import { Home } from './pages/Home/Home'
-import { AboutMe } from './pages/AboutMe/AboutMe'
+import { About } from './pages/About/About'
 import { Skills } from './pages/Skills/Skills'
 import { Footer } from './components/Footer/Footer'
+import { Works } from './pages/Works/Works'
 
 const App = () => (
   <>
     <Header />
     <main className="main">
       <Home />
-      <AboutMe />
+      <About />
       <Skills />
+      <Works />
     </main>
     <Footer />
   </>

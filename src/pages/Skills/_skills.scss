@@ -1,0 +1,32 @@
+@use '../../sass/variables' as var;
+
+.skills {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+  &__tech,
+  &__tools {
+    width: 48%;
+  }
+
+  &__title {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var.$gold-color;
+    margin-bottom: 2rem;
+  }
+
+  &__grid {
+    aspect-ratio: 3/2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+}

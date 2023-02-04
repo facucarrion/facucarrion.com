@@ -19,6 +19,7 @@ const Nav = () => (
       <NavItem
         icon={<BiCodeCurly className="header__nav__item__link__icon" />}
         text={'Skills'}
+        section={'skills'}
       />
       <NavItem
         icon={<BsFillGearFill className="header__nav__item__link__icon" />}

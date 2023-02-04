@@ -1,0 +1,21 @@
+@use '../../sass/variables' as var;
+@import '../../sass/mixins';
+
+.footer {
+  @include background-image;
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 1rem;
+
+  &__copy {
+    font-size: 1.3rem;
+    color: var.$dark-text-color;
+    font-weight: 400;
+    text-align: center;
+  }
+}

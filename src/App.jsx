@@ -4,9 +4,10 @@ import { About } from './pages/About/About'
 import { Skills } from './pages/Skills/Skills'
 import { Footer } from './components/Footer/Footer'
 import { Works } from './pages/Works/Works'
+import { LangProvider } from './context/LangContext'
 
 const App = () => (
-  <>
+  <LangProvider>
     <Header />
     <main className="main">
       <Home />
@@ -15,7 +16,7 @@ const App = () => (
       <Works />
     </main>
     <Footer />
-  </>
+  </LangProvider>
 )
 
 export { App }

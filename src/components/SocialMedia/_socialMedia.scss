@@ -5,6 +5,12 @@
   gap: 1rem;
   margin-left: 0.1rem;
 
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__icon {
     color: var.$gold-color;
     height: 2.1875rem;

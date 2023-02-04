@@ -15,6 +15,7 @@ const Home = () => (
     <img
       src={'/img/code-illustration.svg'}
       className="home__img"
+      alt="coding illustration"
     />
   </section>
 )

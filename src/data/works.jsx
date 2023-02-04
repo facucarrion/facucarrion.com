@@ -22,7 +22,7 @@ export const works = [
         color="#ead41c"
       />
     ],
-    img: '/img/focsolar.png',
+    img: '/img/focsolar.webp',
     deploy: 'https://focsolar.netlify.app',
     github: 'https://www.github.com/facucarrion/focsolar'
   },
@@ -46,7 +46,7 @@ export const works = [
         color="#2760e5"
       />
     ],
-    img: '/img/coingecko.png',
+    img: '/img/coingecko.webp',
     deploy: 'https://facucarrion-coingecko.netlify.app',
     github: 'https://www.github.com/facucarrion/coingecko-api'
   }

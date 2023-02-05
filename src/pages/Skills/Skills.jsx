@@ -26,7 +26,7 @@ const Skills = () => {
       </section>
       <section className="skills__tools">
         <h2 className="skills__title">{translations.skills.tool}</h2>
-        <div className="skills__grid">
+        <div className="skills__grid tools">
           {toolSkills.map(({ icon, name }, index) => (
             <Skill
               icon={icon}

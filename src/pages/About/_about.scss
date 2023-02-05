@@ -5,10 +5,15 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  flex-wrap: wrap;
   padding: 0rem 2rem;
+
+  @media screen and (max-width: 600px) {
+    align-items: center;
+    height: auto;
+    padding: 2rem;
+  }
 
   &__container {
     display: flex;
@@ -21,6 +26,11 @@
     margin-bottom: 2rem;
     font-size: 3rem;
     color: var.$gold-color;
+
+    @media screen and (max-width: 600px) {
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
   }
 
   &__imgcont {
@@ -39,18 +49,27 @@
 
   &__textcont {
     width: 56%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 1.2rem;
+
+    @media screen and (max-width: 920px) {
+      width: 100%;
+      max-width: 75ch;
+    }
   }
 
   &__text {
     color: var.$dark-text-color;
     font-size: 1.35rem;
     font-weight: 400;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.2rem;
+    }
 
     &--decorated {
       color: var.$gold-color;

@@ -14,7 +14,7 @@ export const dictionary = {
     about: {
       title: 'Sobre Mí',
       text: [
-        <>Soy <strong className="aboutme__text--decorated">Desarrollador Web 👨🏻‍💻</strong>, me apasiona combinar lo técnico con lo abstracto para crear diseños bonitos con el mejor rendimiento</>,
+        <>Soy <strong className="aboutme__text--decorated">Desarrollador Web 👨🏻‍💻</strong>, me apasiona combinar lo técnico con lo abstracto para crear diseños bonitos con el mejor rendimiento.</>,
         <>Desarrollo interfaces dinámicas con React y SASS. También, presto especial atención a la Optimización <strong className="aboutme__text--decorated">(SEO)</strong> para que tu web se posicione en la cúspide 🔝 de Internet.</>,
         <>Estoy en busca de Experiencia realizando proyectos como <strong className="aboutme__text--decorated">Freelance</strong>, Colaborando 👥 con colegas de la industria.</>,
         <>Mi método de <strong className="aboutme__text--decorated">Trabajo</strong> se basa en la Cooperación y en la Organización 🗃️, sin dejar de lado la Eficiencia.</>,

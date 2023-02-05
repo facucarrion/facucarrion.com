@@ -20,6 +20,9 @@
     transform: translate(-40.5%, -50%);
     height: 100%;
     z-index: -1;
+    @media screen and (max-width: 800px) {
+      transform: translate(-50%, -50%);
+    }
   }
 
   &__filter {

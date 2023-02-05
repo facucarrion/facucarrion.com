@@ -22,6 +22,9 @@
     line-height: 1em;
     font-size: 1.5rem;
     transition: color 0.2s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    @media screen and (max-width: 900px) {
+      font-size: 2rem;
+    }
 
     &:hover {
       color: var.$gold-color;
@@ -32,6 +35,11 @@
       height: 1.25rem;
       width: 1.25rem;
       transition: transform 0.2s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+      cursor: pointer;
+      @media screen and (max-width: 900px) {
+        height: 1.3rem;
+        width: 1.3rem;
+      }
 
       &.lang {
         height: 100%;

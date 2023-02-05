@@ -1,7 +1,51 @@
+@import '../../sass/mixins';
+
 .header__nav {
+  transition: transform 0.5s ease;
+  @media screen and (max-width: 900px) {
+    z-index: 1;
+  }
+
   &__menu {
     display: flex;
     list-style: none;
     gap: 1.2rem;
+  }
+}
+
+// -- Default Classes in Widest Res -- //
+.header__responsive__icon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .header__nav {
+    width: 90%;
+    position: absolute;
+    @include background-image;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    top: 0;
+    z-index: -1;
+
+    &__menu {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  }
+
+  // -- Default Classes -- //
+  .open-menu {
+    transform: translateY(0);
+  }
+  .close-menu {
+    transform: translateY(-100%);
+  }
+  .open-toggle {
+    display: block;
+  }
+  .hidden-togle {
+    display: none;
   }
 }

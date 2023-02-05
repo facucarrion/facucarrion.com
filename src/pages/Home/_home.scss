@@ -7,6 +7,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem 0;
+  }
 
   &__container {
     display: flex;
@@ -14,6 +19,11 @@
     justify-content: center;
     height: 100%;
     width: 50%;
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+      max-width: 550px;
+      height: auto;
+    }
   }
 
   &__title {
@@ -25,6 +35,9 @@
     margin-bottom: 1rem;
     line-height: 1em;
     color: var.$dark-text-color;
+    @media screen and (max-width: 600px) {
+      font-size: 2.5rem;
+    }
 
     &--decorated {
       color: var.$gold-color;
@@ -35,8 +48,17 @@
   }
 
   &__img {
+    aspect-ratio: 2/1;
     width: 50%;
     transform: scaleX(-1);
     z-index: -1;
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+      max-width: 550px;
+      height: auto;
+    }
+    @media screen and (max-width: 600px) {
+      height: 50%;
+    }
   }
 }

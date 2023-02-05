@@ -7,6 +7,12 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 2rem;
+  @media screen and (max-width: 1350px) {
+    height: auto;
+  }
+  @media screen and (max-width: 800px) {
+    padding: 2rem;
+  }
 
   &__title {
     width: 100%;
@@ -23,5 +29,13 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
+    @media screen and (max-width: 1350px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 800px) {
+      aspect-ratio: 1/1.2;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+    }
   }
 }

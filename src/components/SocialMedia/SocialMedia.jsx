@@ -1,4 +1,5 @@
 import { BsLinkedin, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs'
+import { IoMdMail } from 'react-icons/io'
 
 const SocialMedia = () => (
   <div className="socialmedia">
@@ -41,6 +42,14 @@ const SocialMedia = () => (
       aria-label="Twitter"
     >
       <BsTwitter className="socialmedia__icon" />
+    </a>
+    <a
+      href="mailto:facundojcarrion"
+      className="socialmedia__link"
+      title="Email"
+      aria-label="Email"
+    >
+      <IoMdMail className="socialmedia__icon" />
     </a>
   </div>
 )

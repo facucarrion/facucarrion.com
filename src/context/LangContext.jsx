@@ -2,7 +2,7 @@ import { createContext, useState } from 'react'
 import { dictionary } from '../data/dictionary'
 
 const LangContext = createContext()
-const initialLanguage = 'es'
+const initialLanguage = window.navigator.language?.split('-')[0] === 'es' ? 'es' : 'en'
 
 const LangProvider = ({ children }) => {
   const [language, setLanguage] = useState(initialLanguage)

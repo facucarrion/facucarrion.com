@@ -9,8 +9,8 @@ export const techSkills = [
     name: 'HTML',
     icon: (
       <ImHtmlFive
-        className="skill__icon"
-        color="#e56027"
+        className='skill__icon'
+        color='#e56027'
       />
     )
   },
@@ -18,8 +18,8 @@ export const techSkills = [
     name: 'CSS',
     icon: (
       <SiCss3
-        className="skill__icon"
-        color="#2760e5"
+        className='skill__icon'
+        color='#2760e5'
       />
     )
   },
@@ -27,8 +27,8 @@ export const techSkills = [
     name: 'JavaScript',
     icon: (
       <SiJavascript
-        className="skill__icon"
-        color="#ead41c"
+        className='skill__icon'
+        color='#ead41c'
       />
     )
   },
@@ -36,8 +36,8 @@ export const techSkills = [
     name: 'React',
     icon: (
       <SiReact
-        className="skill__icon"
-        color="#61dafb"
+        className='skill__icon'
+        color='#61dafb'
       />
     )
   },
@@ -45,8 +45,8 @@ export const techSkills = [
     name: 'Sass',
     icon: (
       <FaSass
-        className="skill__icon"
-        color="#c76494"
+        className='skill__icon'
+        color='#c76494'
       />
     )
   },
@@ -54,8 +54,8 @@ export const techSkills = [
     name: 'Material UI',
     icon: (
       <SiMaterialui
-        className="skill__icon"
-        color="#0081cb"
+        className='skill__icon'
+        color='#0081cb'
       />
     )
   },
@@ -63,8 +63,8 @@ export const techSkills = [
     name: 'Bootstrap',
     icon: (
       <SiBootstrap
-        className="skill__icon"
-        color="#7e46d4"
+        className='skill__icon'
+        color='#7e46d4'
       />
     )
   },
@@ -72,8 +72,8 @@ export const techSkills = [
     name: 'React Native',
     icon: (
       <TbBrandReactNative
-        className="skill__icon"
-        color="#61dafb"
+        className='skill__icon'
+        color='#61dafb'
       />
     )
   }
@@ -84,8 +84,8 @@ export const toolSkills = [
     name: 'Terminal',
     icon: (
       <BsTerminalFill
-        className="skill__icon"
-        color="#efefef"
+        className='skill__icon'
+        color='#efefef'
       />
     )
   },
@@ -93,8 +93,8 @@ export const toolSkills = [
     name: 'GitHub',
     icon: (
       <BsGithub
-        className="skill__icon"
-        color="#7e46d4"
+        className='skill__icon'
+        color='#7e46d4'
       />
     )
   },
@@ -102,8 +102,8 @@ export const toolSkills = [
     name: 'Git',
     icon: (
       <ImGit
-        className="skill__icon"
-        color="#f14e32"
+        className='skill__icon'
+        color='#f14e32'
       />
     )
   },
@@ -111,8 +111,8 @@ export const toolSkills = [
     name: 'Notion',
     icon: (
       <SiNotion
-        className="skill__icon"
-        color="#efe"
+        className='skill__icon'
+        color='#efe'
       />
     )
   },
@@ -120,8 +120,8 @@ export const toolSkills = [
     name: 'Markdown',
     icon: (
       <SiMarkdown
-        className="skill__icon"
-        color="#259fe9"
+        className='skill__icon'
+        color='#259fe9'
       />
     )
   }

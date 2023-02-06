@@ -38,6 +38,9 @@
     @media screen and (max-width: 600px) {
       font-size: 2.5rem;
     }
+    @media screen and (max-width: 500px) {
+      font-size: 8.3vw;
+    }
 
     &--decorated {
       color: var.$gold-color;
@@ -48,7 +51,7 @@
   }
 
   &__img {
-    aspect-ratio: 2/1;
+    aspect-ratio: 2/1.25;
     width: 50%;
     transform: scaleX(-1);
     z-index: -1;
@@ -58,7 +61,6 @@
       height: auto;
     }
     @media screen and (max-width: 600px) {
-      height: 50%;
     }
   }
 }

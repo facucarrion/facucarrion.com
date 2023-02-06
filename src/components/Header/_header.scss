@@ -9,12 +9,12 @@
   align-items: center;
   position: sticky;
   top: 0;
-  padding: 0.5rem 2rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   @include background-image;
   background-attachment: fixed;
   z-index: 3;
   @media screen and (max-width: 900px) {
-    padding: 0 1rem 0 2rem;
+    padding: 0 1rem;
   }
 
   &__img {

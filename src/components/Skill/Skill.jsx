@@ -1,7 +1,7 @@
 const Skill = ({ icon, title }) => (
-  <article className="skill">
+  <article className='skill'>
     {icon}
-    <strong className="skill__title">{title}</strong>
+    <strong className='skill__title'>{title}</strong>
   </article>
 )
 

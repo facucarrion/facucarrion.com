@@ -5,15 +5,15 @@ const About = () => {
   const { translations } = useContext(LangContext)
   return (
     <section
-      className="aboutme"
-      id="about"
+      className='aboutme'
+      id='about'
     >
-      <h2 className="aboutme__title">{translations.about.title}</h2>
+      <h2 className='aboutme__title'>{translations.about.title}</h2>
 
-      <div className="aboutme__textcont">
+      <div className='aboutme__textcont'>
         {translations.about.text.map((element, index) => (
           <p
-            className="aboutme__text"
+            className='aboutme__text'
             key={index}
           >
             {element}

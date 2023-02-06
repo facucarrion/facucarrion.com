@@ -17,36 +17,36 @@ const Nav = ({ isMenuOpen, handleClick }) => {
 
   return (
     <nav className={'header__nav ' + verifyClass(isMenuOpen)}>
-      <ul className="header__nav__menu">
+      <ul className='header__nav__menu'>
         <NavItem
-          icon={<AiFillHome className="header__nav__item__link__icon" />}
+          icon={<AiFillHome className='header__nav__item__link__icon' />}
           text={translations.header.home}
-          section={'top'}
+          section='top'
           handleClick={handleClick}
         />
         <NavItem
-          icon={<BsPersonCircle className="header__nav__item__link__icon" />}
+          icon={<BsPersonCircle className='header__nav__item__link__icon' />}
           text={translations.header.about}
-          section={'about'}
+          section='about'
           handleClick={handleClick}
         />
         <NavItem
-          icon={<BiCodeCurly className="header__nav__item__link__icon" />}
+          icon={<BiCodeCurly className='header__nav__item__link__icon' />}
           text={translations.header.skills}
-          section={'skills'}
+          section='skills'
           handleClick={handleClick}
         />
         <NavItem
-          icon={<BsFillGearFill className="header__nav__item__link__icon" />}
+          icon={<BsFillGearFill className='header__nav__item__link__icon' />}
           text={translations.header.works}
-          section={'works'}
+          section='works'
           handleClick={handleClick}
         />
 
-        <li className="header__nav__item lang">
+        <li className='header__nav__item lang'>
           <IoLanguage
             onClick={handleLang}
-            className="header__nav__item__link__icon lang"
+            className='header__nav__item__link__icon lang'
           />
         </li>
       </ul>

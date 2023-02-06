@@ -9,7 +9,7 @@ import { LangProvider } from './context/LangContext'
 const App = () => (
   <LangProvider>
     <Header />
-    <main className="main">
+    <main className='main'>
       <Home />
       <About />
       <Skills />

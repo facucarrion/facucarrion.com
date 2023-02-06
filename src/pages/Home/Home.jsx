@@ -7,21 +7,21 @@ const Home = () => {
 
   return (
     <section
-      className="home"
-      id="home"
+      className='home'
+      id='home'
     >
-      <div className="home__container">
-        <h1 className="home__title">
-          {translations.home.title} <span className="home__title--decorated">Facundo Carrion</span>
+      <div className='home__container'>
+        <h1 className='home__title'>
+          {translations.home.title} <span className='home__title--decorated'>Facundo Carrion</span>
           {translations.home.developer}
         </h1>
         <SocialMedia />
       </div>
 
       <img
-        src={'/img/code-illustration.svg'}
-        className="home__img"
-        alt="coding illustration"
+        src='/img/code-illustration.svg'
+        className='home__img'
+        alt='coding illustration'
       />
     </section>
   )

@@ -11,18 +11,18 @@ export const works = [
     tech: [
       <ImHtmlFive
         key={1}
-        className={'project__icon'}
-        color="#e56027"
+        className='project__icon'
+        color='#e56027'
       />,
       <SiCss3
         key={2}
-        className={'project__icon'}
-        color="#2760e5"
+        className='project__icon'
+        color='#2760e5'
       />,
       <SiJavascript
         key={3}
-        className={'project__icon'}
-        color="#ead41c"
+        className='project__icon'
+        color='#ead41c'
       />
     ],
     img: '/img/focsolar.webp',
@@ -38,18 +38,18 @@ export const works = [
     tech: [
       <SiReact
         key={1}
-        className={'project__icon'}
-        color="#61dafb"
+        className='project__icon'
+        color='#61dafb'
       />,
       <SiMaterialui
         key={2}
-        className={'project__icon'}
-        color="#0081cb"
+        className='project__icon'
+        color='#0081cb'
       />,
       <SiCss3
         key={3}
-        className={'project__icon'}
-        color="#2760e5"
+        className='project__icon'
+        color='#2760e5'
       />
     ],
     img: '/img/coingecko.webp',

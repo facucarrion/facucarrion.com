@@ -9,12 +9,12 @@ const Skills = () => {
 
   return (
     <section
-      className="skills"
-      id="skills"
+      className='skills'
+      id='skills'
     >
-      <section className="skills__tech">
-        <h2 className="skills__title">{translations.skills.tech}</h2>
-        <div className="skills__grid">
+      <section className='skills__tech'>
+        <h2 className='skills__title'>{translations.skills.tech}</h2>
+        <div className='skills__grid'>
           {techSkills.map(({ icon, name }, index) => (
             <Skill
               icon={icon}
@@ -24,9 +24,9 @@ const Skills = () => {
           ))}
         </div>
       </section>
-      <section className="skills__tools">
-        <h2 className="skills__title">{translations.skills.tool}</h2>
-        <div className="skills__grid tools">
+      <section className='skills__tools'>
+        <h2 className='skills__title'>{translations.skills.tool}</h2>
+        <div className='skills__grid tools'>
           {toolSkills.map(({ icon, name }, index) => (
             <Skill
               icon={icon}

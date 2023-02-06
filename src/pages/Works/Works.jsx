@@ -7,11 +7,11 @@ const Works = () => {
   const { language } = useContext(LangContext)
   return (
     <section
-      className="works"
-      id="works"
+      className='works'
+      id='works'
     >
-      <h2 className="works__title">My Works</h2>
-      <div className="works__grid">
+      <h2 className='works__title'>My Works</h2>
+      <div className='works__grid'>
         {works.map((project, index) => (
           <Project
             key={index}

@@ -17,5 +17,13 @@
     color: var.$dark-text-color;
     font-weight: 400;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+
+    &--icon {
+      font-size: 1.75rem;
+      margin-top: .3125rem;
+    }
   }
 }

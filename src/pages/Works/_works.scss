@@ -26,10 +26,9 @@
 
   &__grid {
     display: grid;
-    aspect-ratio: 2/1.25;
-    width: 60%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    aspect-ratio: 5/1;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 
     @media screen and (max-width: 1350px) {

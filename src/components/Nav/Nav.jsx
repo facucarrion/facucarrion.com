@@ -9,7 +9,8 @@ import { useContext } from 'react'
 import LangContext from '../../context/LangContext'
 
 const Nav = ({ isMenuOpen, handleClick }) => {
-  const { translations, handleLang } = useContext(LangContext)
+  const { translations, handleLang, initialLang } = useContext(LangContext)
+
   const verifyClass = (state) => {
     if (state) return 'open-menu'
     else return 'close-menu'
@@ -43,11 +44,14 @@ const Nav = ({ isMenuOpen, handleClick }) => {
           handleClick={handleClick}
         />
 
-        <li className='header__nav__item lang'>
+        <li className='header__nav__item__link'>
           <IoLanguage
-            onClick={handleLang}
             className='header__nav__item__link__icon lang'
           />
+          <select onChange={handleLang} className='header__nav__menu__select' defaultValue={initialLang}>
+            <option value='en'>English</option>
+            <option value='es'>Spanish</option>
+          </select>
         </li>
       </ul>
     </nav>

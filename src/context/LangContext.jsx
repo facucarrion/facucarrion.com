@@ -2,23 +2,18 @@ import { createContext, useState } from 'react'
 import { dictionary } from '../data/dictionary'
 
 const LangContext = createContext()
-const initialLanguage = window.navigator.language?.split('-')[0] === 'es' ? 'es' : 'en'
+const initialLang = window.navigator.language?.split('-')[0] === 'es' ? 'es' : 'en'
 
 const LangProvider = ({ children }) => {
-  const [language, setLanguage] = useState(initialLanguage)
+  const [language, setLanguage] = useState(initialLang)
   const [translations, setTranslations] = useState(dictionary[language])
 
   const handleLang = (e) => {
-    if (language === 'en') {
-      setLanguage('es')
-      setTranslations(dictionary.es)
-    } else if (language === 'es') {
-      setLanguage('en')
-      setTranslations(dictionary.en)
-    }
+    setLanguage(e.target.value)
+    setTranslations(dictionary[e.target.value])
   }
 
-  const data = { translations, handleLang, language }
+  const data = { translations, handleLang, language, initialLang }
 
   return <LangContext.Provider value={data}>{children}</LangContext.Provider>
 }

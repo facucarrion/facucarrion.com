@@ -52,11 +52,16 @@
     }
 
     @media screen and (max-width: 500px) {
-      aspect-ratio: 2.5/3;
+      aspect-ratio: 1/4;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      max-height: 600px;
 
       &.tools {
-        aspect-ratio: 2.5/2;
-        grid-template-rows: repeat(2, 1fr);
+        aspect-ratio: 1/4;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        max-height: 450px;
       }
     }
   }

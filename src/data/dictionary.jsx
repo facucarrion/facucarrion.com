@@ -15,7 +15,7 @@ export const dictionary = {
     about: {
       title: 'Sobre Mí',
       text: [
-        <Fragment key={1}>Soy <strong className='aboutme__text--decorated'>Desarrollador Web 👨🏻‍💻</strong>, me apasiona combinar lo técnico con lo abstracto para crear diseños bonitos con el mejor rendimiento.</Fragment>,
+        <Fragment key={1}>Soy <strong className='aboutme__text--decorated'>Desarrollador Web 👨🏻‍💻</strong>, me apasiona combinar lo técnico con lo estético para crear interfaces amigables e intuitivas con el mejor rendimiento.</Fragment>,
         <Fragment key={2}>Desarrollo interfaces dinámicas con React y SASS. También, presto especial atención a la Optimización <strong className='aboutme__text--decorated'>(SEO)</strong> para que tu web se posicione en la cúspide 🔝 de Internet.</Fragment>,
         <Fragment key={3}>Estoy en busca de Experiencia realizando proyectos como <strong className='aboutme__text--decorated'>Freelance</strong>, Colaborando 👥 con colegas de la industria.</Fragment>,
         <Fragment key={4}>Mi método de <strong className='aboutme__text--decorated'>Trabajo</strong> se basa en la Cooperación y en la Organización 🗃️, sin dejar de lado la Eficiencia.</Fragment>,
@@ -45,7 +45,7 @@ export const dictionary = {
     about: {
       title: 'About Me',
       text: [
-        <Fragment key={1}>I&#39;m <strong className='aboutme__text--decorated'>Web Developer 👨🏻‍💻</strong>, passionate about combining the technical with the abstract to create aesthetically pleasing designs with optimal performance.</Fragment>,
+        <Fragment key={1}>I&#39;m <strong className='aboutme__text--decorated'>Web Developer 👨🏻‍💻</strong>, passionate about combining technicality with aesthetics to create user-friendly and intuitive interfaces with the best performance.</Fragment>,
         <Fragment key={2}>I specialize in developing dynamic interfaces using React and SASS, with a focus on Optimization <strong className='aboutme__text--decorated'>(SEO)</strong> to position your website at the forefront 🔝 of the Internet.</Fragment>,
         <Fragment key={3}>I am seeking experience as a <strong className='aboutme__text--decorated'>Freelancer</strong>, working on projects with other industry professionals 👥.</Fragment>,
         <Fragment key={4}>My <strong className='aboutme__text--decorated'>Work</strong> approach is based on Cooperation and Organization 🗃️, while maintaining Efficiency.</Fragment>,

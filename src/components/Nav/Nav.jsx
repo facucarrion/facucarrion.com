@@ -49,8 +49,8 @@ const Nav = ({ isMenuOpen, handleClick }) => {
             className='header__nav__item__link__icon lang'
           />
           <select onChange={handleLang} className='header__nav__menu__select' defaultValue={initialLang}>
-            <option value='en'>&nbsp;English&nbsp;&nbsp;</option>
-            <option value='es'>&nbsp;Spanish&nbsp;&nbsp;</option>
+            <option value='en'>English</option>
+            <option value='es'>Spanish</option>
           </select>
         </li>
       </ul>

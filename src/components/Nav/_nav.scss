@@ -27,10 +27,10 @@
         outline: none;
       }
 
-      & option {
+      &>option {
         background: var.$dark-bg-color;
-        padding: 0;
         margin: 0;
+        border: none;
       }
     }
 

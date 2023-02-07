@@ -13,21 +13,20 @@
   @include background-image;
   background-attachment: fixed;
   z-index: 3;
+
   @media screen and (max-width: 900px) {
     padding: 0 1rem;
   }
 
   &__img {
-    height: 6rem;
-    @media screen and (max-width: 900px) {
-      height: 4rem;
-    }
+    height: 4.5rem;
   }
 
   &__wrapper {
     display: flex;
     align-items: center;
     text-decoration: none;
+
     @media screen and (max-width: 900px) {
       width: 80%;
       height: 100%;
@@ -41,11 +40,11 @@
     transition: transform 0.2s ease;
   }
 
-  &__wrapper:hover > &__img {
+  &__wrapper:hover>&__img {
     transform: scale(1.1);
   }
 
-  &__wrapper:hover > &__title {
+  &__wrapper:hover>&__title {
     transform: translateX(5%);
   }
 
@@ -55,6 +54,7 @@
     font-weight: 600;
     text-decoration: none;
     margin-right: 1rem;
+
     @media screen and (max-width: 900px) {
       font-size: 2rem;
     }

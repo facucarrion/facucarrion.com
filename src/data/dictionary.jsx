@@ -57,7 +57,7 @@ export const dictionary = {
       tool: 'Tools'
     },
     works: {
-      title: 'My Projects'
+      title: 'Projects'
     }
   }
 }

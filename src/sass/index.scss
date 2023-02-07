@@ -1,8 +1,6 @@
-// -- DEFAULT & LAYOUT STYLES -- //
 @use './normalize';
 @use './app';
 
-// -- COMPONENTS STYLES -- //
 @use '../components/Header/header';
 @use '../components/Nav/nav';
 @use '../components/NavItem/navItem';
@@ -11,12 +9,10 @@
 @use '../components/Footer/footer';
 @use '../components/Project/project';
 
-// -- PAGES STYLES -- //
 @use '../pages/Home/home';
 @use '../pages/About/about';
 @use '../pages/Skills/skills';
 @use '../pages/Works/works';
 
-// -- FONTS -- //
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');

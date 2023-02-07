@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+
   @media screen and (max-width: 1000px) {
     height: auto;
     flex-direction: column;
@@ -16,9 +17,14 @@
     padding: 2rem;
   }
 
+  @media screen and (max-width: 900px) {
+    padding: 5rem 2rem 0 2rem;
+  }
+
   &__tech,
   &__tools {
     width: 48%;
+
     @media screen and (max-width: 1000px) {
       width: 100%;
       max-width: 550px;
@@ -40,9 +46,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 0.5rem;
+
     @media screen and (max-width: 1300px) {
       aspect-ratio: 1/1;
     }
+
     @media screen and (max-width: 500px) {
       aspect-ratio: 2.5/3;
 

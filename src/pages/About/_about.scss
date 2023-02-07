@@ -12,7 +12,10 @@
   @media screen and (max-width: 600px) {
     align-items: center;
     height: auto;
-    padding: 2rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    padding: 5rem 2rem 0 2rem;
   }
 
   &__container {

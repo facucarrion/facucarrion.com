@@ -40,7 +40,7 @@ const Nav = ({ isMenuOpen, handleClick }) => {
         <NavItem
           icon={<BsFillGearFill className='header__nav__item__link__icon' />}
           text={translations.header.works}
-          section='works'
+          section='bottom'
           handleClick={handleClick}
         />
 

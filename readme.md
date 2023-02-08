@@ -13,5 +13,3 @@
 <br>
 
 ### 🎨 I've based my design on a minimalist and modern industrial style. I used a Yellow to highlighted words because it conveys optimism and thirst of knowledge.
-
-<br>

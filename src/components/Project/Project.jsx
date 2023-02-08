@@ -31,6 +31,7 @@ const Project = ({ name, description, tech, img, deploy, github }) => (
               <BsGithub
                 className='project__icon project__icon--link'
                 color='#7e46d4'
+                role='img'
               />
             </a>
           </li>
@@ -43,6 +44,7 @@ const Project = ({ name, description, tech, img, deploy, github }) => (
               <BsLink45Deg
                 className='project__icon project__icon--link'
                 color='#efefef'
+                role='img'
               />
             </a>
           </li>

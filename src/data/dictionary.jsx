@@ -28,6 +28,9 @@ export const dictionary = {
     },
     works: {
       title: 'Proyectos'
+    },
+    footer: {
+      copy: 'Todos los derechos reservados'
     }
   },
   // prettier-ignore
@@ -58,6 +61,9 @@ export const dictionary = {
     },
     works: {
       title: 'Projects'
+    },
+    footer: {
+      copy: 'All rights reserved'
     }
   }
 }

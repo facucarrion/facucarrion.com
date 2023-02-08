@@ -48,7 +48,7 @@ const Nav = ({ isMenuOpen, handleClick }) => {
           <IoLanguage
             className='header__nav__item__link__icon lang'
           />
-          <select onChange={handleLang} className='header__nav__menu__select' defaultValue={initialLang}>
+          <select onChange={handleLang} className='header__nav__menu__select' defaultValue={initialLang} name='lang'>
             <option value='en'>English</option>
             <option value='es'>Spanish</option>
           </select>

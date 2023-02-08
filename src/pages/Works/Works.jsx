@@ -21,6 +21,7 @@ const Works = () => {
             img={project.img}
             deploy={project.deploy}
             github={project.github}
+            role='img'
           />
         ))}
       </div>

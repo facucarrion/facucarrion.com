@@ -12,6 +12,7 @@
     height: auto;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     padding: 7rem 2rem 0 2rem;
     gap: 3rem 0;
     padding: 2rem;
@@ -52,16 +53,14 @@
     }
 
     @media screen and (max-width: 500px) {
-      aspect-ratio: 1/4;
+      aspect-ratio: 2/4;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(4, 1fr);
-      max-height: 600px;
 
       &.tools {
-        aspect-ratio: 1/4;
+        aspect-ratio: 2/3;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        max-height: 450px;
       }
     }
   }

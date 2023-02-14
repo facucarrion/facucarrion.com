@@ -6,12 +6,15 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  border-radius: 0.625rem;
-  border: 1px solid var.$dark-text-color;
-  padding: 1rem 0;
+  transition: transform 0.3s ease;
 
-  & * {
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  & > * {
     cursor: default;
+    filter: drop-shadow(-5px -5px 5px #efefef22);
   }
 
   &__icon {
@@ -22,7 +25,7 @@
   &__title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var.$dark-text-color;
+    color: #efe;
     text-align: center;
   }
 }

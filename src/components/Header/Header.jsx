@@ -34,14 +34,18 @@ const Header = () => {
         handleClick={handleClick}
       />
       <MdClose
-        className={'header__responsive__icon ' + verifyClass(isMenuOpen, 'close')}
+        className={
+          'header__responsive__icon ' + verifyClass(isMenuOpen, 'close')
+        }
         color='#ffe134'
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         cursor='pointer'
         size='28px'
       />
       <MdMenu
-        className={'header__responsive__icon ' + verifyClass(isMenuOpen, 'open')}
+        className={
+          'header__responsive__icon ' + verifyClass(isMenuOpen, 'open')
+        }
         color='#ffe134'
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         cursor='pointer'

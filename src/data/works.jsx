@@ -26,7 +26,7 @@ export const works = [
       />
     ],
     img: '/img/focsolar.webp',
-    deploy: 'https://focsolar.netlify.app',
+    deploy: 'https://focsolar.com.ar',
     github: 'https://www.github.com/facucarrion/focsolar'
   },
   {

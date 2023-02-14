@@ -1,7 +1,15 @@
 import { BsGithub, BsTerminalFill } from 'react-icons/bs'
 import { FaSass } from 'react-icons/fa'
 import { ImGit, ImHtmlFive } from 'react-icons/im'
-import { SiBootstrap, SiCss3, SiJavascript, SiMarkdown, SiMaterialui, SiNotion, SiReact } from 'react-icons/si'
+import {
+  SiBootstrap,
+  SiCss3,
+  SiJavascript,
+  SiMarkdown,
+  SiMaterialui,
+  SiNotion,
+  SiReact
+} from 'react-icons/si'
 import { TbBrandReactNative } from 'react-icons/tb'
 
 export const techSkills = [
@@ -64,7 +72,7 @@ export const techSkills = [
     icon: (
       <SiBootstrap
         className='skill__icon'
-        color='#7e46d4'
+        color='#ab3dff'
       />
     )
   },

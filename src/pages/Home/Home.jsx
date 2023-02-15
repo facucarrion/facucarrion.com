@@ -12,7 +12,8 @@ const Home = () => {
     >
       <div className='home__container'>
         <h1 className='home__title'>
-          {translations.home.title} <span className='home__title--decorated'>Facundo Carrion</span>
+          {translations.home.title}{' '}
+          <span className='home__title--decorated'>Facundo Carrion</span>
           {translations.home.developer}
         </h1>
         <SocialMedia />

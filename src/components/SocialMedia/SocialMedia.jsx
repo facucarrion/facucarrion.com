@@ -1,6 +1,6 @@
-import { SocialLink } from '../SocialLink/SocialLink'
 import { BsLinkedin, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs'
-import { IoMdMail } from 'react-icons/io'
+import { SocialLink } from '../SocialLink/SocialLink'
+import { GiPalmTree } from 'react-icons/gi'
 
 const SocialMedia = () => (
   <div className='socialmedia'>
@@ -29,10 +29,10 @@ const SocialMedia = () => (
       <BsTwitter className='socialmedia__icon' />
     </SocialLink>
     <SocialLink
-      href='mailto:facundojcarrion'
-      label='Email'
+      href='https://www.linktr.ee/facucarrionn'
+      label='LinkTree'
     >
-      <IoMdMail className='socialmedia__icon' />
+      <GiPalmTree className='socialmedia__icon' />
     </SocialLink>
   </div>
 )

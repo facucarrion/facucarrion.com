@@ -9,7 +9,6 @@ const About = () => {
       id='about'
     >
       <h2 className='aboutme__title'>{translations.about.title}</h2>
-
       <div className='aboutme__textcont'>
         {translations.about.text.map((element, index) => (
           <p

@@ -15,11 +15,37 @@ export const dictionary = {
     about: {
       title: 'Sobre Mí',
       text: [
-        <Fragment key={1}>Soy <strong className='aboutme__text--decorated'>Desarrollador Web 👨🏻‍💻</strong>, me apasiona combinar lo técnico con lo estético para crear interfaces amigables e intuitivas con el mejor rendimiento.</Fragment>,
-        <Fragment key={2}>Desarrollo interfaces dinámicas con React y SASS. También, presto especial atención a la Optimización <strong className='aboutme__text--decorated'>(SEO)</strong> para que tu web se posicione en la cúspide 🔝 de Internet.</Fragment>,
-        <Fragment key={3}>Estoy en busca de Experiencia realizando proyectos como <strong className='aboutme__text--decorated'>Freelance</strong>, Colaborando 👥 con colegas de la industria.</Fragment>,
-        <Fragment key={4}>Mi método de <strong className='aboutme__text--decorated'>Trabajo</strong> se basa en la Cooperación y en la Organización 🗃️, sin dejar de lado la Eficiencia.</Fragment>,
-        <Fragment key={5}>Me gusta <strong className='aboutme__text--decorated'>Aprender</strong> cosas nuevas todos los días, para renovar mis maneras de trabajar y ser capaz de encontrar la mejor Solución 💡.</Fragment>
+        <Fragment key={1}>
+          Soy{' '}
+          <strong className='aboutme__text--decorated'>
+            Desarrollador Web 👨🏻‍💻
+          </strong>
+          , me apasiona combinar lo técnico con lo estético para crear
+          interfaces amigables e intuitivas con el mejor rendimiento.
+        </Fragment>,
+        <Fragment key={2}>
+          Desarrollo interfaces dinámicas con React y SASS. También, presto
+          especial atención a la Optimización{' '}
+          <strong className='aboutme__text--decorated'>(SEO)</strong> para que
+          tu web se posicione en la cúspide 🔝 de Internet.
+        </Fragment>,
+        <Fragment key={3}>
+          Estoy en busca de Experiencia realizando proyectos como{' '}
+          <strong className='aboutme__text--decorated'>Freelance</strong>,
+          Colaborando 👥 con colegas de la industria.
+        </Fragment>,
+        <Fragment key={4}>
+          Mi método de{' '}
+          <strong className='aboutme__text--decorated'>Trabajo</strong> se basa
+          en la Cooperación y en la Organización 🗃️, sin dejar de lado la
+          Eficiencia.
+        </Fragment>,
+        <Fragment key={5}>
+          Me gusta{' '}
+          <strong className='aboutme__text--decorated'>Aprender</strong> cosas
+          nuevas todos los días, para renovar mis maneras de trabajar y ser
+          capaz de encontrar la mejor Solución 💡.
+        </Fragment>
       ]
     },
     skills: {

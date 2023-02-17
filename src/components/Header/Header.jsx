@@ -22,7 +22,7 @@ const Header = () => {
       >
         <img
           className='header__img'
-          src='/img/facucarrion.png'
+          src='/img/facucarriondev.png'
           alt='Facucarrion Dev'
         />
         <h2 className='header__title'>

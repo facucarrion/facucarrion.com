@@ -1,8 +1,8 @@
 {
   "semi": false,
-  "singleAttributePerLine": true,
-  "printWidth": 80,
   "singleQuote": true,
-  "jsxSingleQuote": true,
-  "trailingComma": "none"
+  "quoteProps": "as-needed",
+  "trailingComma": "none",
+  "printWidth": 80,
+  "singleAttributePerLine": true
 }

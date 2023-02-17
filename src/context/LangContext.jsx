@@ -22,7 +22,6 @@ const LangProvider = ({ children }) => {
   }
 
   const data = { translations, handleLang, language }
-
   return <LangContext.Provider value={data}>{children}</LangContext.Provider>
 }
 

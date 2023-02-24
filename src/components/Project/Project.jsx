@@ -1,7 +1,12 @@
-import { BsGithub, BsLink45Deg } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
 
 const Project = ({ name, description, tech, img, deploy, github }) => (
-  <article className='project'>
+  <a
+    className='project'
+    href={deploy}
+    target='_blank'
+    rel='noreferrer'
+  >
     <img
       src={img}
       alt=''
@@ -35,23 +40,10 @@ const Project = ({ name, description, tech, img, deploy, github }) => (
               />
             </a>
           </li>
-          <li className='project__tech'>
-            <a
-              href={deploy}
-              target='_blank'
-              rel='noreferrer'
-            >
-              <BsLink45Deg
-                className='project__icon project__icon--link'
-                color='#efefef'
-                role='img'
-              />
-            </a>
-          </li>
         </ul>
       </div>
     </div>
-  </article>
+  </a>
 )
 
 export { Project }

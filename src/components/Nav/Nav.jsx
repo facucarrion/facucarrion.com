@@ -32,14 +32,14 @@ const Nav = ({ isMenuOpen, handleClick }) => {
           handleClick={handleClick}
         />
         <NavItem
-          icon={<BiCodeCurly className='header__nav__item__link__icon' />}
-          text={translations.header.skills}
-          section='skills'
+          icon={<BsFillGearFill className='header__nav__item__link__icon' />}
+          text={translations.header.works}
+          section='works'
           handleClick={handleClick}
         />
         <NavItem
-          icon={<BsFillGearFill className='header__nav__item__link__icon' />}
-          text={translations.header.works}
+          icon={<BiCodeCurly className='header__nav__item__link__icon' />}
+          text={translations.header.skills}
           section='bottom'
           handleClick={handleClick}
         />

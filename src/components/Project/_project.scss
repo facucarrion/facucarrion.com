@@ -8,8 +8,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  text-decoration: none;
 
-  &:hover>.project__filter {
+  &:hover > .project__filter {
     transform: translateY(0);
   }
 

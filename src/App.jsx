@@ -12,8 +12,8 @@ const App = () => (
     <main className='main'>
       <Home />
       <About />
-      <Skills />
       <Works />
+      <Skills />
     </main>
     <Footer />
   </LangProvider>

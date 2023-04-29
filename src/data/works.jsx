@@ -1,5 +1,5 @@
 import { ImHtmlFive } from 'react-icons/im'
-import { SiCss3, SiJavascript, SiReact, SiMaterialui } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiReact, SiMaterialui, SiTailwindcss, SiTypescript } from 'react-icons/si'
 
 export const works = [
   {
@@ -55,5 +55,32 @@ export const works = [
     img: '/img/coingecko.webp',
     deploy: 'https://facucarrion-coingecko.netlify.app',
     github: 'https://www.github.com/facucarrion/coingecko-api'
+  },
+  {
+    name: 'TypeScript To-Do App',
+    description: {
+      es: 'Una aplicación de tareas hecha con TypeScript',
+      en: 'A to-do app made with TypeScript'
+    },
+    tech: [
+      <SiReact
+        key={1}
+        className='project__icon'
+        color='#61dafb'
+      />,
+      <SiTailwindcss
+        key={2}
+        className='project__icon'
+        color='#06b6d4'
+      />,
+      <SiTypescript
+        key={3}
+        className='project__icon'
+        color='#007acc'
+      />
+    ],
+    img: '/img/ts-todo.webp',
+    deploy: 'https://ts-todo-app-facucarrion.netlify.app',
+    github: 'https://github.com/facucarrion/ts-todo-app'
   }
 ]

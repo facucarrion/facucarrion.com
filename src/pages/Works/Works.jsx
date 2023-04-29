@@ -5,6 +5,7 @@ import LangContext from '../../context/LangContext'
 
 const Works = () => {
   const { translations, language } = useContext(LangContext)
+
   return (
     <section
       className='works'

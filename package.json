@@ -1,42 +1,27 @@
 {
-  "name": "facucarrion.dev",
-  "private": true,
-  "version": "0.0.0",
+  "name": "astro",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facucarrion/facucarrion.dev.git"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1"
+    "@astrojs/check": "^0.3.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.1.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.9",
-    "@vitejs/plugin-react": "^3.0.0",
-    "lint-staged": "^13.1.0",
-    "prettier": "^2.8.4",
-    "sass": "^1.57.1",
-    "standard": "*",
-    "vite": "^4.0.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "standard",
-      "plugin:react/recommended"
-    ],
-    "rules": {
-      "react/react-in-jsx-scope": "off",
-      "react/prop-types": "off"
-    }
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.3",
+    "prettier-plugin-tailwindcss": "^0.5.11"
   }
 }

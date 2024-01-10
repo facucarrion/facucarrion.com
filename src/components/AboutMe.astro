@@ -1,0 +1,54 @@
+---
+import { GitHubIcon, LinkedInIcon, MailIcon } from './icons'
+---
+
+<section class='flex w-full max-w-[800px] flex-col gap-8'>
+  <img
+    src='/img/facu.webp'
+    class='size-20 rounded-full'
+    alt='Facucarrion Dev'
+  />
+  <h1 class='mb-2 flex gap-2 text-4xl font-semibold text-white'>
+    Hola, soy <span class='font-bold text-yellow-300'>Facu Carrion</span>
+    <a
+      href='https://linkedin.com/in/facucarrion'
+      target='_blank'
+      rel='noopener'
+      class='flex items-center justify-center'
+    >
+      <span
+        class='me-2 rounded bg-green-600 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300'
+      >
+        Disponible para trabajar
+      </span>
+    </a>
+  </h1>
+  <h2 class='max-w-2xl text-2xl font-medium text-zinc-200/90'>
+    Desarrollador Web Autodidacta.
+    <span class='font-semibold text-white'>Córdoba, Argentina.</span>
+    Especializado en desarrollar aplicaciones web
+    <strong class='text-green-300'>intuitivas</strong>,
+    <strong class='text-pink-300'>atractivas</strong> y
+    <strong class='text-blue-300'>eficientes</strong>.
+  </h2>
+  <nav class='flex gap-4'>
+    <a
+      href='https://github.com/facucarrion'
+      class='text-md flex items-center gap-2 rounded-full border-2 border-gray-500/70 bg-gray-700/80 px-4 py-2 text-white/70 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gray-500/90'
+    >
+      <GitHubIcon class='size-5' /> Github
+    </a>
+    <a
+      href='https://linkedin.com/in/facucarrion'
+      class='text-md flex items-center gap-2 rounded-full border-2 border-gray-500/70 bg-gray-700/80 px-4 py-2 text-white/70 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gray-500/90'
+    >
+      <LinkedInIcon class='size-5' /> Linkedin
+    </a>
+    <a
+      href='mailto:facundojcarriondev@gmail.com'
+      class='text-md flex items-center gap-2 rounded-full border-2 border-gray-500/70 bg-gray-700/80 px-4 py-2 text-white/70 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gray-500/90'
+    >
+      <MailIcon class='size-5' /> facundojcarriondev@gmail.com
+    </a>
+  </nav>
+</section>

@@ -1,0 +1,48 @@
+---
+import TAGS from '@/data/tags.data'
+import { CodeIcon } from './icons'
+
+const SKILLS = {
+  FRONTEND: [
+    TAGS.Astro,
+    TAGS.JavaScript,
+    TAGS.Tailwind,
+    TAGS.React,
+    TAGS.Svelte
+  ],
+  BACKEND: [TAGS.Node, TAGS.Sql]
+}
+
+const capitalize = (str: string) =>
+  str[0].toUpperCase() + str.slice(1).toLowerCase()
+---
+
+<section
+  class='mb-16 flex w-full max-w-[800px] flex-col gap-8 pt-12'
+  id='skills'
+>
+  <h2 class='flex max-w-2xl items-center gap-2 text-2xl font-bold text-white'>
+    <CodeIcon class='size-10' />
+    Mis Habilidades
+  </h2>
+
+  {
+    Object.keys(SKILLS).map((cat) => (
+      <>
+        <h3 class='flex items-center gap-2 text-3xl font-semibold text-white'>
+          {capitalize(cat)}
+        </h3>
+        <ul class='mb-4 flex gap-4'>
+          {SKILLS[cat as 'FRONTEND' | 'BACKEND'].map((skill) => (
+            <li
+              class={`flex items-center gap-x-2 rounded-full px-3 py-1 ${skill.class}`}
+            >
+              <skill.icon class='size-6' />
+              <p class='font-medium text-white'>{skill.text}</p>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))
+  }
+</section>

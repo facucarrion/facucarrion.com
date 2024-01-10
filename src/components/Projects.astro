@@ -1,0 +1,69 @@
+---
+import { FolderIcon } from './icons'
+import TAGS from '../data/tags.data'
+
+const PROJECTS = [
+  {
+    title: 'FOC Solar - Landing Page',
+    deploy: 'https://focsolar.com.ar',
+    code: 'https://github.com/facucarrion/focsolar',
+    image: 'focsolar.webp',
+    description: `
+      Landing Page creada con HTML, CSS y JavaScript. 
+      Realizada para mostrar ejemplos de sus trabajos y facilitar el contacto a nuevos clientes. 
+      Optimizada en SEO y rendimiento.
+    `,
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.JavaScript]
+  },
+  {
+    title: 'Crysis Studio - Landing Page',
+    deploy: 'https://crysis-studio.tech',
+    code: 'https://github.com/facucarrion/crysis-studio',
+    image: 'crysistudio.webp',
+    description: `
+      Landing Page creada con Astro, Svelte y TailwindCSS.
+      Realizada para mostrar trabajadores, eventos e información relacionada al estudio.
+      Optimizada en SEO y rendimiento.
+    `,
+    tags: [TAGS.Astro, TAGS.Svelte, TAGS.Tailwind]
+  }
+]
+---
+
+<section
+  class='mt-32 flex w-full max-w-[800px] flex-col gap-8 pt-14'
+  id='projects'
+>
+  <h2 class='flex max-w-2xl items-center gap-2 text-2xl font-bold text-white'>
+    <FolderIcon class='size-10' />
+    Mis Proyectos
+  </h2>
+  {
+    PROJECTS.map((project) => (
+      <article class='mb-8 flex flex-1 flex-col'>
+        <h3 class='mb-4 flex items-center gap-2 text-3xl font-semibold text-white'>
+          {project.title}
+        </h3>
+
+        <p class='text-md'>{project.description}</p>
+
+        <ul class='my-4 flex gap-2'>
+          {project.tags.map((tag) => (
+            <li
+              class={`flex items-center gap-x-2 rounded-full px-3 py-1 ${tag.class}`}
+            >
+              <tag.icon class='size-5' />
+              <p class='font-medium text-white'>{tag.text}</p>
+            </li>
+          ))}
+        </ul>
+
+        <img
+          src={`/img/projects/${project.image}`}
+          alt={project.title}
+          class='aspect-video w-full rounded-xl'
+        />
+      </article>
+    ))
+  }
+</section>
